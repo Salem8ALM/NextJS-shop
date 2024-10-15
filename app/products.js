@@ -1,16 +1,19 @@
-import Image from "next/image";
-import ninteeneighty from "./nineteen.png";
-import animals from "./animalfarm.png";
+import image1984 from "./nineteen.png";
+import imageAnimalFarm from "./animalfarm.png";
+
 let products = [
   {
+    id: 1,
     name: "1984",
     price: "19.84 kd",
-    image: animals,
+    image: imageAnimalFarm,
   },
   {
-    name: "Animal farm",
+    id: 2,
+    name: "Animal Farm",
     price: "14.82 kd",
-    image: ninteeneighty,
+    image: image1984,
   },
 ];
+
 export default products;
