@@ -1,4 +1,5 @@
 import Image from "next/image";
+import products from "../products";
 
 function ProductItem({ product }) {
   return (
